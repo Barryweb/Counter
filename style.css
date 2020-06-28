@@ -8,12 +8,13 @@
 
 body {
   background: #2d3436;
+  height: 3000px;
 }
 
 div {
   color: #dfe6e9;
   font-size: 46px;
   text-align: center;
-  padding: 30px 0;
+  padding: 100px 0;
 }
 /*# sourceMappingURL=style.css.map */
