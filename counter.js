@@ -1,10 +1,10 @@
 // 當頁面準備完成時才讀取
 $(document).ready(function () {
     //當視窗捲動時
-    // element == this
     $(window).scroll(function () {
         // 
         $("*").each(function (index, element) {
+            // element == this
             var offset = $(this).offset();       //取得元素位移資料
             var top = offset.top;                   //上方
             // console.log("元素的上方:" + top);
@@ -16,11 +16,6 @@ $(document).ready(function () {
             var time = $(this).attr("data-counter-time");
             var offset = $(this).attr("data-counter-offset");
 
-            // console.log("數字"+ number);
-            // console.log("時間"+ time);
-            // console.log("位移"+ offset);
-
-            // 判斷式
             //if(條件){程式}
             if (windowTop > top - offset) {
                 // 選取動畫({參數},{選項})
