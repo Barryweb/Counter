@@ -7,7 +7,6 @@ $(document).ready(function () {
         $("*").each(function (index, element) {
             var offset = $(this).offset();       //取得元素位移資料
             var top = offset.top;                   //上方
-            var left = offset.left;                 //左方   
             // console.log("元素的上方:" + top);
             var windowTop = $(window).scrollTop();
             // console.log("視窗的上方:" + windowTop);
