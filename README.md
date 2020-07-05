@@ -4,9 +4,9 @@
 展示網頁:https://barryweb.github.io/Counter/
 
 1. 請先連jQuery CDN
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 2.連結CDN
-https://github.com/Barryweb/Counter/blob/master/counter.js
+<script src="https://barryweb.github.io/Counter/counter.js"></script>
 
 
 ```說明
